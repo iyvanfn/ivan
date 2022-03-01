@@ -1,0 +1,795 @@
+2022-01-08 04:04:53.823 MSK [1898] LOG:  starting PostgreSQL 14.1 on x86_64-pc-linux-musl, compiled by gcc (Alpine 10.3.1_git20211027) 10.3.1 20211027, 64-bit
+2022-01-08 04:04:53.823 MSK [1898] LOG:  listening on IPv4 address "0.0.0.0", port 5432
+2022-01-08 04:04:53.836 MSK [1898] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2022-01-08 04:04:53.862 MSK [1899] LOG:  database system was shut down at 2022-01-08 03:44:45 MSK
+2022-01-08 04:04:53.891 MSK [1898] LOG:  database system is ready to accept connections
+2022-01-08 04:12:34.747 MSK [1898] LOG:  received smart shutdown request
+2022-01-08 04:12:34.756 MSK [1898] LOG:  background worker "logical replication launcher" (PID 1905) exited with exit code 1
+2022-01-08 04:12:34.756 MSK [1900] LOG:  shutting down
+2022-01-08 05:05:51.836 MSK [1894] LOG:  starting PostgreSQL 14.1 on x86_64-pc-linux-musl, compiled by gcc (Alpine 10.3.1_git20211027) 10.3.1 20211027, 64-bit
+2022-01-08 05:05:51.838 MSK [1894] LOG:  listening on IPv4 address "0.0.0.0", port 5432
+2022-01-08 05:05:51.856 MSK [1894] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2022-01-08 05:05:51.887 MSK [1895] LOG:  database system was shut down at 2022-01-08 04:12:34 MSK
+2022-01-08 05:05:51.921 MSK [1894] LOG:  database system is ready to accept connections
+2022-01-08 05:06:00.881 MSK [1894] LOG:  received fast shutdown request
+2022-01-08 05:06:00.888 MSK [1894] LOG:  aborting any active transactions
+2022-01-08 05:06:00.889 MSK [1894] LOG:  background worker "logical replication launcher" (PID 1901) exited with exit code 1
+2022-01-08 05:06:00.889 MSK [1896] LOG:  shutting down
+2022-01-08 05:06:00.946 MSK [1894] LOG:  database system is shut down
+2022-01-18 11:59:26.256 MSK [4009] LOG:  starting PostgreSQL 14.1 on x86_64-pc-linux-musl, compiled by gcc (Alpine 10.3.1_git20211027) 10.3.1 20211027, 64-bit
+2022-01-18 11:59:26.257 MSK [4009] LOG:  listening on IPv4 address "0.0.0.0", port 5432
+2022-01-18 11:59:26.265 MSK [4009] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2022-01-18 11:59:26.280 MSK [4010] LOG:  database system shutdown was interrupted; last known up at 2022-01-08 05:27:13 MSK
+2022-01-18 11:59:26.400 MSK [4010] LOG:  database system was not properly shut down; automatic recovery in progress
+2022-01-18 11:59:26.410 MSK [4010] LOG:  redo starts at 0/18CDBA0
+2022-01-18 11:59:26.410 MSK [4010] LOG:  invalid record length at 0/18CDBD8: wanted 24, got 0
+2022-01-18 11:59:26.410 MSK [4010] LOG:  redo done at 0/18CDBA0 system usage: CPU: user: 0.00 s, system: 0.00 s, elapsed: 0.00 s
+2022-01-18 11:59:26.439 MSK [4009] LOG:  database system is ready to accept connections
+2022-01-18 12:13:05.598 MSK [4009] LOG:  received smart shutdown request
+2022-01-18 12:13:05.603 MSK [4041] FATAL:  terminating connection due to administrator command
+2022-01-18 12:13:05.603 MSK [4041] LOG:  could not send data to client: Broken pipe
+2022-01-18 12:13:05.609 MSK [4009] LOG:  background worker "logical replication launcher" (PID 4016) exited with exit code 1
+2022-01-18 12:13:05.609 MSK [4011] LOG:  shutting down
+2022-01-18 12:14:04.543 MSK [1782] LOG:  starting PostgreSQL 14.1 on x86_64-pc-linux-musl, compiled by gcc (Alpine 10.3.1_git20211027) 10.3.1 20211027, 64-bit
+2022-01-18 12:14:04.544 MSK [1782] LOG:  listening on IPv4 address "0.0.0.0", port 5432
+2022-01-18 12:14:04.548 MSK [1782] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2022-01-18 12:14:04.559 MSK [1783] LOG:  database system shutdown was interrupted; last known up at 2022-01-18 12:13:05 MSK
+2022-01-18 12:14:04.665 MSK [1783] LOG:  database system was not properly shut down; automatic recovery in progress
+2022-01-18 12:14:04.671 MSK [1783] LOG:  redo starts at 0/18CDC50
+2022-01-18 12:14:04.671 MSK [1783] LOG:  invalid record length at 0/18CDC88: wanted 24, got 0
+2022-01-18 12:14:04.671 MSK [1783] LOG:  redo done at 0/18CDC50 system usage: CPU: user: 0.00 s, system: 0.00 s, elapsed: 0.00 s
+2022-01-18 12:14:04.693 MSK [1782] LOG:  database system is ready to accept connections
+2022-01-18 12:31:53.021 MSK [1835] ERROR:  syntax error at or near "OREDER" at character 63
+2022-01-18 12:31:53.021 MSK [1835] STATEMENT:  SELECT round(x::numeric,2) AS x FROM fn WHERE abs(y) < 0.0013 OREDER BY x;
+2022-01-19 11:21:20.597 MSK [1782] LOG:  received smart shutdown request
+2022-01-19 11:21:20.601 MSK [1835] FATAL:  terminating connection due to administrator command
+2022-01-19 11:21:20.601 MSK [1835] LOG:  could not send data to client: Broken pipe
+2022-01-19 11:21:20.615 MSK [1782] LOG:  background worker "logical replication launcher" (PID 1789) exited with exit code 1
+2022-01-19 11:21:20.615 MSK [1784] LOG:  shutting down
+2022-01-21 13:20:18.205 MSK [1777] LOG:  starting PostgreSQL 14.1 on x86_64-pc-linux-musl, compiled by gcc (Alpine 10.3.1_git20211027) 10.3.1 20211027, 64-bit
+2022-01-21 13:20:18.205 MSK [1777] LOG:  listening on IPv4 address "0.0.0.0", port 5432
+2022-01-21 13:20:18.211 MSK [1777] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2022-01-21 13:20:18.222 MSK [1778] LOG:  database system shutdown was interrupted; last known up at 2022-01-19 11:21:20 MSK
+2022-01-21 13:20:18.359 MSK [1778] LOG:  database system was not properly shut down; automatic recovery in progress
+2022-01-21 13:20:18.366 MSK [1778] LOG:  redo starts at 0/1B72A08
+2022-01-21 13:20:18.366 MSK [1778] LOG:  invalid record length at 0/1B72AF0: wanted 24, got 0
+2022-01-21 13:20:18.366 MSK [1778] LOG:  redo done at 0/1B72AB8 system usage: CPU: user: 0.00 s, system: 0.00 s, elapsed: 0.00 s
+2022-01-21 13:20:18.385 MSK [1777] LOG:  database system is ready to accept connections
+2022-01-21 13:20:20.895 MSK [1788] FATAL:  lock file "postmaster.pid" already exists
+2022-01-21 13:20:20.895 MSK [1788] HINT:  Is another postmaster (PID 1777) running in data directory "/home/user/pgdata"?
+2022-01-21 13:38:24.592 MSK [1844] FATAL:  database "pit.py" does not exist
+2022-01-21 13:38:48.690 MSK [1847] ERROR:  syntax error at or near "psycopg2" at character 8
+2022-01-21 13:38:48.690 MSK [1847] STATEMENT:  import psycopg2
+	import numpy as np 
+	import matplotlib.pyplot as mp 
+	con = psycopg2.connect("dbname=user user=user host=127.0.0.1 port=5432")
+	cur = con.cursor()
+	cur.execute("SELECT x, y FROM fn ORDER BY x;")
+	arr = cur.fetchall()
+	cur.close()
+	con.close()
+	x, y = np.array(arr).T
+	mp.plot(x, y)
+	mp.title('sine wave')
+	mp.xlable('x')
+	mp.ylable('y = sin(x)')
+	mp.grid(True which = 'both')
+	mp.axhline(y = 0, color = 'k')
+	mp.show()
+2022-01-21 13:45:38.687 MSK [1878] ERROR:  syntax error at or near "psycopg2" at character 8
+2022-01-21 13:45:38.687 MSK [1878] STATEMENT:  import psycopg2
+	import numpy as np 
+	import matplotlib.pyplot as mp 
+	con = psycopg2.connect("dbname=user user=user host=127.0.0.1 port=5432")
+	cur = con.cursor()
+	cur.execute("SELECT x, y FROM fn ORDER BY x;")
+	arr = cur.fetchall()
+	cur.close()
+	con.close()
+	x, y = np.array(arr).T
+	mp.plot(x, y)
+	mp.title('sine wave')
+	mp.xlable('x')
+	mp.ylable('y = sin(x)')
+	mp.grid(True which = 'both')
+	mp.axhline(y = 0, color = 'k')
+	mp.show()
+2022-01-21 13:48:11.583 MSK [1883] ERROR:  syntax error at or near "psycopg2" at character 8
+2022-01-21 13:48:11.583 MSK [1883] STATEMENT:  import psycopg2
+	import numpy as np 
+	import matplotlib.pyplot as mp 
+	con = psycopg2.connect("dbname=user user=user host=127.0.0.1 port=5432")
+	cur = con.cursor()
+	cur.execute("SELECT x, y FROM fn ORDER BY x;")
+	arr = cur.fetchall()
+	cur.close()
+	con.close()
+	x, y = np.array(arr).T
+	mp.plot(x, y)
+	mp.title('sine wave')
+	mp.xlable('x')
+	mp.ylable('y = sin(x)')
+	mp.grid(True which = 'both')
+	mp.axhline(y = 0, color = 'k')
+	mp.show()
+2022-01-21 13:53:00.824 MSK [1903] ERROR:  syntax error at or near "psycopg2" at character 8
+2022-01-21 13:53:00.824 MSK [1903] STATEMENT:  import psycopg2
+	import numpy as np 
+	import matplotlib.pyplot as mp 
+	con = psycopg2.connect("dbname=user user=user host=127.0.0.1 port=5432")
+	cur = con.cursor()
+	cur.execute("SELECT x, y FROM fn ORDER BY x;")
+	arr = cur.fetchall()
+	cur.close()
+	con.close()
+	x, y = np.array(arr).T
+	mp.plot(x, y)
+	mp.title('sine wave')
+	mp.xlable('x')
+	mp.ylable('y = sin(x)')
+	mp.grid(True which = 'both')
+	mp.axhline(y = 0, color = 'k')
+	mp.show()
+2022-01-21 13:54:58.837 MSK [1922] FATAL:  role "user" does not exist
+2022-01-21 13:55:08.557 MSK [1926] FATAL:  lock file "postmaster.pid" already exists
+2022-01-21 13:55:08.557 MSK [1926] HINT:  Is another postmaster (PID 1777) running in data directory "/home/user/pgdata"?
+2022-01-21 13:55:11.830 MSK [1928] FATAL:  role "user" does not exist
+2022-01-21 13:56:03.004 MSK [1932] FATAL:  database "user" does not exist
+2022-01-21 13:56:48.061 MSK [1945] FATAL:  database "g394-fedorov" does not exist
+2022-01-21 13:57:03.394 MSK [1949] FATAL:  lock file "postmaster.pid" already exists
+2022-01-21 13:57:03.394 MSK [1949] HINT:  Is another postmaster (PID 1777) running in data directory "/home/user/pgdata"?
+2022-01-21 13:57:10.220 MSK [1953] FATAL:  lock file "postmaster.pid" already exists
+2022-01-21 13:57:10.220 MSK [1953] HINT:  Is another postmaster (PID 1777) running in data directory "/home/user/pgdata"?
+2022-01-21 13:57:12.534 MSK [1777] LOG:  received fast shutdown request
+2022-01-21 13:57:12.537 MSK [1777] LOG:  aborting any active transactions
+2022-01-21 13:57:12.539 MSK [1777] LOG:  background worker "logical replication launcher" (PID 1784) exited with exit code 1
+2022-01-21 13:57:12.539 MSK [1779] LOG:  shutting down
+2022-01-21 13:57:12.562 MSK [1777] LOG:  database system is shut down
+2022-01-21 13:57:15.368 MSK [1959] LOG:  starting PostgreSQL 14.1 on x86_64-pc-linux-musl, compiled by gcc (Alpine 10.3.1_git20211027) 10.3.1 20211027, 64-bit
+2022-01-21 13:57:15.368 MSK [1959] LOG:  listening on IPv4 address "0.0.0.0", port 5432
+2022-01-21 13:57:15.377 MSK [1959] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2022-01-21 13:57:15.383 MSK [1960] LOG:  database system was shut down at 2022-01-21 13:57:12 MSK
+2022-01-21 13:57:15.388 MSK [1959] LOG:  database system is ready to accept connections
+2022-01-21 13:57:26.679 MSK [1979] FATAL:  database "g394-fedorov" does not exist
+2022-01-21 14:03:57.362 MSK [1959] LOG:  received fast shutdown request
+2022-01-21 14:03:57.366 MSK [1959] LOG:  aborting any active transactions
+2022-01-21 14:03:57.368 MSK [1959] LOG:  background worker "logical replication launcher" (PID 1966) exited with exit code 1
+2022-01-21 14:03:57.368 MSK [1969] FATAL:  terminating connection due to administrator command
+2022-01-21 14:03:57.369 MSK [1961] LOG:  shutting down
+2022-01-21 14:03:57.384 MSK [1959] LOG:  database system is shut down
+2022-01-21 14:04:12.313 MSK [2037] LOG:  starting PostgreSQL 14.1 on x86_64-pc-linux-musl, compiled by gcc (Alpine 10.3.1_git20211027) 10.3.1 20211027, 64-bit
+2022-01-21 14:04:12.313 MSK [2037] LOG:  listening on IPv4 address "0.0.0.0", port 5432
+2022-01-21 14:04:12.317 MSK [2037] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2022-01-21 14:04:12.326 MSK [2038] LOG:  database system was shut down at 2022-01-21 14:03:57 MSK
+2022-01-21 14:04:12.331 MSK [2037] LOG:  database system is ready to accept connections
+2022-01-21 14:04:49.257 MSK [2057] FATAL:  database "g394-fedorov" does not exist
+2022-01-21 14:12:40.309 MSK [2037] LOG:  received fast shutdown request
+2022-01-21 14:12:40.312 MSK [2037] LOG:  aborting any active transactions
+2022-01-21 14:12:40.314 MSK [2037] LOG:  background worker "logical replication launcher" (PID 2044) exited with exit code 1
+2022-01-21 14:12:40.314 MSK [2039] LOG:  shutting down
+2022-01-21 14:12:40.329 MSK [2037] LOG:  database system is shut down
+2022-01-21 14:12:42.296 MSK [2106] LOG:  starting PostgreSQL 14.1 on x86_64-pc-linux-musl, compiled by gcc (Alpine 10.3.1_git20211027) 10.3.1 20211027, 64-bit
+2022-01-21 14:12:42.296 MSK [2106] LOG:  listening on IPv4 address "0.0.0.0", port 5432
+2022-01-21 14:12:42.303 MSK [2106] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2022-01-21 14:12:42.310 MSK [2107] LOG:  database system was shut down at 2022-01-21 14:12:40 MSK
+2022-01-21 14:12:42.314 MSK [2106] LOG:  database system is ready to accept connections
+2022-01-21 14:13:18.603 MSK [2106] LOG:  received smart shutdown request
+2022-01-21 14:13:18.605 MSK [2116] FATAL:  terminating connection due to administrator command
+2022-01-21 14:13:18.605 MSK [2116] LOG:  could not send data to client: Broken pipe
+2022-01-21 14:13:18.609 MSK [2106] LOG:  background worker "logical replication launcher" (PID 2113) exited with exit code 1
+2022-01-21 14:13:18.609 MSK [2108] LOG:  shutting down
+2022-01-21 14:13:53.293 MSK [1776] LOG:  starting PostgreSQL 14.1 on x86_64-pc-linux-musl, compiled by gcc (Alpine 10.3.1_git20211027) 10.3.1 20211027, 64-bit
+2022-01-21 14:13:53.293 MSK [1776] LOG:  listening on IPv4 address "0.0.0.0", port 5432
+2022-01-21 14:13:53.299 MSK [1776] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2022-01-21 14:13:53.308 MSK [1777] LOG:  database system shutdown was interrupted; last known up at 2022-01-21 14:13:18 MSK
+2022-01-21 14:13:53.447 MSK [1777] LOG:  database system was not properly shut down; automatic recovery in progress
+2022-01-21 14:13:53.453 MSK [1777] LOG:  redo starts at 0/1B72F48
+2022-01-21 14:13:53.453 MSK [1777] LOG:  invalid record length at 0/1B72F80: wanted 24, got 0
+2022-01-21 14:13:53.453 MSK [1777] LOG:  redo done at 0/1B72F48 system usage: CPU: user: 0.00 s, system: 0.00 s, elapsed: 0.00 s
+2022-01-21 14:13:53.472 MSK [1776] LOG:  database system is ready to accept connections
+2022-01-21 14:22:44.987 MSK [1792] ERROR:  syntax error at or near "DELET" at character 1
+2022-01-21 14:22:44.987 MSK [1792] STATEMENT:  DELET FROM positive WHERE x>2.0 AND x<8.0
+	CREATE TABLE positive_tab(x FLOAT, y FLOAT);
+2022-01-21 14:23:40.259 MSK [1792] ERROR:  syntax error at or near "DELET" at character 1
+2022-01-21 14:23:40.259 MSK [1792] STATEMENT:  DELET FROM positive WHERE x>2.0 AND x<8.0;
+2022-01-21 14:25:14.839 MSK [1792] ERROR:  syntax error at or near "FORM" at character 72
+2022-01-21 14:25:14.839 MSK [1792] STATEMENT:  CREATE RULE "_RETURN" AS ON SELECT TO positive_tab DO INSTEAD SELECT * FORM fn WHERE y>0.0;
+2022-01-21 14:25:28.493 MSK [1792] ERROR:  syntax error at or near "FORM" at character 73
+2022-01-21 14:25:28.493 MSK [1792] STATEMENT:  CREATE RULE "_RETURN" AS ON SELECT TO positive_tab DO INSTEAD
+	 SELECT * FORM fn WHERE y>0.0;
+2022-01-21 14:29:25.983 MSK [1869] FATAL:  database "LAB24" does not exist
+2022-01-21 14:34:38.363 MSK [1893] ERROR:  rule "prevent_updates" for relation "fn_backup" already exists
+2022-01-21 14:34:38.363 MSK [1893] STATEMENT:  CREATE RULE prevent_updates AS ON UPDATE TO fn_backup DO INSTEAD NOTHING;
+2022-01-21 14:42:55.599 MSK [1776] LOG:  received smart shutdown request
+2022-01-21 14:42:55.601 MSK [1902] FATAL:  terminating connection due to administrator command
+2022-01-21 14:42:55.601 MSK [1902] LOG:  could not send data to client: Broken pipe
+2022-01-21 14:42:55.605 MSK [1776] LOG:  background worker "logical replication launcher" (PID 1783) exited with exit code 1
+2022-01-21 14:42:55.605 MSK [1778] LOG:  shutting down
+2022-01-21 14:43:33.688 MSK [1774] LOG:  starting PostgreSQL 14.1 on x86_64-pc-linux-musl, compiled by gcc (Alpine 10.3.1_git20211027) 10.3.1 20211027, 64-bit
+2022-01-21 14:43:33.688 MSK [1774] LOG:  listening on IPv4 address "0.0.0.0", port 5432
+2022-01-21 14:43:33.693 MSK [1774] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2022-01-21 14:43:33.703 MSK [1775] LOG:  database system shutdown was interrupted; last known up at 2022-01-21 14:42:55 MSK
+2022-01-21 14:43:33.846 MSK [1775] LOG:  database system was not properly shut down; automatic recovery in progress
+2022-01-21 14:43:33.853 MSK [1775] LOG:  redo starts at 0/2876060
+2022-01-21 14:43:33.855 MSK [1775] LOG:  invalid record length at 0/2877F48: wanted 24, got 0
+2022-01-21 14:43:33.855 MSK [1775] LOG:  redo done at 0/2877F10 system usage: CPU: user: 0.00 s, system: 0.00 s, elapsed: 0.00 s
+2022-01-21 14:43:33.880 MSK [1774] LOG:  database system is ready to accept connections
+2022-01-21 15:18:20.586 MSK [1774] LOG:  received smart shutdown request
+2022-01-21 15:18:20.590 MSK [1794] FATAL:  terminating connection due to administrator command
+2022-01-21 15:18:20.590 MSK [1794] LOG:  could not send data to client: Broken pipe
+2022-01-21 15:18:20.593 MSK [1774] LOG:  background worker "logical replication launcher" (PID 1781) exited with exit code 1
+2022-01-21 15:18:20.593 MSK [1776] LOG:  shutting down
+2022-01-22 11:11:25.368 MSK [1783] LOG:  starting PostgreSQL 14.1 on x86_64-pc-linux-musl, compiled by gcc (Alpine 10.3.1_git20211027) 10.3.1 20211027, 64-bit
+2022-01-22 11:11:25.369 MSK [1783] LOG:  listening on IPv4 address "0.0.0.0", port 5432
+2022-01-22 11:11:25.374 MSK [1783] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2022-01-22 11:11:25.385 MSK [1784] LOG:  database system shutdown was interrupted; last known up at 2022-01-21 15:18:20 MSK
+2022-01-22 11:11:25.540 MSK [1784] LOG:  database system was not properly shut down; automatic recovery in progress
+2022-01-22 11:11:25.548 MSK [1784] LOG:  redo starts at 0/2877FC0
+2022-01-22 11:11:25.548 MSK [1784] LOG:  invalid record length at 0/2877FF8: wanted 24, got 0
+2022-01-22 11:11:25.548 MSK [1784] LOG:  redo done at 0/2877FC0 system usage: CPU: user: 0.00 s, system: 0.00 s, elapsed: 0.00 s
+2022-01-22 11:11:25.572 MSK [1783] LOG:  database system is ready to accept connections
+2022-01-22 11:21:17.675 MSK [1783] LOG:  received fast shutdown request
+2022-01-22 11:21:17.678 MSK [1783] LOG:  aborting any active transactions
+2022-01-22 11:21:17.679 MSK [1793] FATAL:  terminating connection due to administrator command
+2022-01-22 11:21:17.680 MSK [1783] LOG:  background worker "logical replication launcher" (PID 1790) exited with exit code 1
+2022-01-22 11:21:17.680 MSK [1785] LOG:  shutting down
+2022-01-22 11:21:17.707 MSK [1783] LOG:  database system is shut down
+2022-01-22 11:21:28.680 MSK [1850] LOG:  starting PostgreSQL 14.1 on x86_64-pc-linux-musl, compiled by gcc (Alpine 10.3.1_git20211027) 10.3.1 20211027, 64-bit
+2022-01-22 11:21:28.680 MSK [1850] LOG:  listening on IPv4 address "0.0.0.0", port 5432
+2022-01-22 11:21:28.689 MSK [1850] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2022-01-22 11:21:28.697 MSK [1851] LOG:  database system was shut down at 2022-01-22 11:21:17 MSK
+2022-01-22 11:21:28.701 MSK [1850] LOG:  database system is ready to accept connections
+2022-01-22 11:21:36.600 MSK [1850] LOG:  received smart shutdown request
+2022-01-22 11:21:36.601 MSK [1860] FATAL:  terminating connection due to administrator command
+2022-01-22 11:21:36.601 MSK [1860] LOG:  could not send data to client: Broken pipe
+2022-01-22 11:21:36.607 MSK [1850] LOG:  background worker "logical replication launcher" (PID 1857) exited with exit code 1
+2022-01-22 11:21:36.607 MSK [1852] LOG:  shutting down
+2022-01-22 11:22:11.626 MSK [1773] LOG:  starting PostgreSQL 14.1 on x86_64-pc-linux-musl, compiled by gcc (Alpine 10.3.1_git20211027) 10.3.1 20211027, 64-bit
+2022-01-22 11:22:11.626 MSK [1773] LOG:  listening on IPv4 address "0.0.0.0", port 5432
+2022-01-22 11:22:11.632 MSK [1773] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2022-01-22 11:22:11.642 MSK [1774] LOG:  database system shutdown was interrupted; last known up at 2022-01-22 11:21:36 MSK
+2022-01-22 11:22:11.778 MSK [1774] LOG:  database system was not properly shut down; automatic recovery in progress
+2022-01-22 11:22:11.784 MSK [1774] LOG:  invalid record length at 0/2879760: wanted 24, got 0
+2022-01-22 11:22:11.784 MSK [1774] LOG:  redo is not required
+2022-01-22 11:22:11.804 MSK [1773] LOG:  database system is ready to accept connections
+2022-01-22 11:23:01.568 MSK [1773] LOG:  received smart shutdown request
+2022-01-22 11:23:01.574 MSK [1792] FATAL:  terminating connection due to administrator command
+2022-01-22 11:23:01.575 MSK [1792] LOG:  could not send data to client: Broken pipe
+2022-01-22 11:24:02.177 MSK [1774] LOG:  starting PostgreSQL 14.1 on x86_64-pc-linux-musl, compiled by gcc (Alpine 10.3.1_git20211027) 10.3.1 20211027, 64-bit
+2022-01-22 11:24:02.180 MSK [1774] LOG:  listening on IPv4 address "0.0.0.0", port 5432
+2022-01-22 11:24:02.185 MSK [1774] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2022-01-22 11:24:02.198 MSK [1775] LOG:  database system was interrupted; last known up at 2022-01-22 11:22:11 MSK
+2022-01-22 11:24:02.338 MSK [1775] LOG:  database system was not properly shut down; automatic recovery in progress
+2022-01-22 11:24:02.345 MSK [1775] LOG:  redo starts at 0/28797D8
+2022-01-22 11:24:02.345 MSK [1775] LOG:  invalid record length at 0/2879810: wanted 24, got 0
+2022-01-22 11:24:02.345 MSK [1775] LOG:  redo done at 0/28797D8 system usage: CPU: user: 0.00 s, system: 0.00 s, elapsed: 0.00 s
+2022-01-22 11:24:02.370 MSK [1774] LOG:  database system is ready to accept connections
+2022-01-22 11:29:05.000 MSK [1797] ERROR:  could not open file "/Users/user/Documents/sine.csv" for reading: No such file or directory
+2022-01-22 11:29:05.000 MSK [1797] HINT:  COPY FROM instructs the PostgreSQL server process to read a file. You may want a client-side facility such as psql's \copy.
+2022-01-22 11:29:05.000 MSK [1797] STATEMENT:  EXPLAIN ANALYZE SELECT * FROM fn_file WHERE x > 10.0;
+2022-01-22 11:31:13.303 MSK [1824] ERROR:  could not open file "/Users/user/Documents/sine.csv" for reading: No such file or directory
+2022-01-22 11:31:13.303 MSK [1824] HINT:  COPY FROM instructs the PostgreSQL server process to read a file. You may want a client-side facility such as psql's \copy.
+2022-01-22 11:31:13.303 MSK [1824] STATEMENT:  EXPLAIN ANALYZE SELECT * FROM fn_file WHERE x > 10.0;
+2022-01-22 11:34:06.252 MSK [1824] ERROR:  materialized view "fn_view" has not been populated
+2022-01-22 11:34:06.252 MSK [1824] HINT:  Use the REFRESH MATERIALIZED VIEW command.
+2022-01-22 11:34:06.252 MSK [1824] STATEMENT:  SELECT * FROM fn_view;
+2022-01-22 11:34:41.271 MSK [1824] ERROR:  syntax error at or near "AS" at character 35
+2022-01-22 11:34:41.271 MSK [1824] STATEMENT:  REFRESH MATERIALIZED VIEW fn_view AS SELECT * FROM fn_file WHERE x > 10.0 WITH NO DATA;
+2022-01-22 11:34:56.882 MSK [1824] ERROR:  materialized view "fn_view" has not been populated
+2022-01-22 11:34:56.882 MSK [1824] HINT:  Use the REFRESH MATERIALIZED VIEW command.
+2022-01-22 11:34:56.882 MSK [1824] STATEMENT:  SELECT * FROM fn_view;
+2022-01-22 11:36:55.002 MSK [1824] ERROR:  could not open file "/Users/user/Documents/sine.csv" for reading: No such file or directory
+2022-01-22 11:36:55.002 MSK [1824] HINT:  COPY FROM instructs the PostgreSQL server process to read a file. You may want a client-side facility such as psql's \copy.
+2022-01-22 11:36:55.002 MSK [1824] STATEMENT:  REFRESH MATERIALIZED VIEW fn_view;
+2022-01-22 11:37:38.082 MSK [1824] ERROR:  could not open file "/Users/user/Documents/sine.csv" for reading: No such file or directory
+2022-01-22 11:37:38.082 MSK [1824] HINT:  COPY FROM instructs the PostgreSQL server process to read a file. You may want a client-side facility such as psql's \copy.
+2022-01-22 11:37:38.082 MSK [1824] STATEMENT:  EXPLAIN ANALYZE SELECT * FROM fn_file WHERE x > 10.0;
+2022-01-22 11:40:43.949 MSK [1824] ERROR:  could not open file "/Users/user/Documents/sine.csv" for reading: No such file or directory
+2022-01-22 11:40:43.949 MSK [1824] HINT:  COPY FROM instructs the PostgreSQL server process to read a file. You may want a client-side facility such as psql's \copy.
+2022-01-22 11:40:43.949 MSK [1824] STATEMENT:  EXPLAIN ANALYZE SELECT * FROM fn_file WHERE x > 10.0;
+2022-01-22 11:41:10.514 MSK [1824] ERROR:  syntax error at or near "FROM" at character 6
+2022-01-22 11:41:10.514 MSK [1824] STATEMENT:  COPY FROM fn_file;
+2022-01-22 11:44:25.021 MSK [1824] ERROR:  could not open file "/Users/user/Documents/sine.csv" for reading: No such file or directory
+2022-01-22 11:44:25.021 MSK [1824] HINT:  COPY FROM instructs the PostgreSQL server process to read a file. You may want a client-side facility such as psql's \copy.
+2022-01-22 11:44:25.021 MSK [1824] STATEMENT:  EXPLAIN ANALYZE SELECT * FROM fn_file WHERE x > 10.0;
+2022-01-22 11:51:08.491 MSK [1824] ERROR:  could not open file "/Users/user/Documents/sine.csv" for reading: No such file or directory
+2022-01-22 11:51:08.491 MSK [1824] HINT:  COPY FROM instructs the PostgreSQL server process to read a file. You may want a client-side facility such as psql's \copy.
+2022-01-22 11:51:08.491 MSK [1824] STATEMENT:  EXPLAIN ANALYZE SELECT * FROM fn_file WHERE x > 10.0;
+2022-01-22 11:54:11.276 MSK [1824] ERROR:  could not open file "/Users/user/Documents/sine.csv" for reading: No such file or directory
+2022-01-22 11:54:11.276 MSK [1824] HINT:  COPY FROM instructs the PostgreSQL server process to read a file. You may want a client-side facility such as psql's \copy.
+2022-01-22 11:54:11.276 MSK [1824] STATEMENT:  EXPLAIN ANALYZE SELECT * FROM fn_file WHERE x > 10.0;
+2022-01-22 11:56:54.230 MSK [1824] ERROR:  relation "fn_file" already exists
+2022-01-22 11:56:54.230 MSK [1824] STATEMENT:  CREATE FOREIGN TABLE fn_file(x FLOAT, y FLOAT ) SERVER file_server OPTIONS (filename '/User/user/sine.csv' , format 'csv');
+2022-01-22 11:57:22.959 MSK [1824] ERROR:  relation "fn_file" already exists
+2022-01-22 11:57:22.959 MSK [1824] STATEMENT:  CREATE FOREIGN TABLE fn_file(x FLOAT, y FLOAT ) SERVER file_server OPTIONS (filename '/user/sine.csv' , format 'csv');
+2022-01-22 11:58:05.033 MSK [1824] ERROR:  could not open file "/Users/user/Documents/sine.csv" for reading: No such file or directory
+2022-01-22 11:58:05.033 MSK [1824] HINT:  COPY FROM instructs the PostgreSQL server process to read a file. You may want a client-side facility such as psql's \copy.
+2022-01-22 11:58:05.033 MSK [1824] STATEMENT:  EXPLAIN ANALYZE SELECT * FROM fn_file WHERE x > 10.0;
+2022-01-22 11:58:20.845 MSK [1824] ERROR:  syntax error at or near "/" at character 31
+2022-01-22 11:58:20.845 MSK [1824] STATEMENT:  EXPLAIN ANALYZE SELECT * FROM /home/user/fn_file WHERE x > 10.0;
+2022-01-22 11:58:42.948 MSK [1824] ERROR:  could not open file "/Users/user/Documents/sine.csv" for reading: No such file or directory
+2022-01-22 11:58:42.948 MSK [1824] HINT:  COPY FROM instructs the PostgreSQL server process to read a file. You may want a client-side facility such as psql's \copy.
+2022-01-22 11:58:42.948 MSK [1824] STATEMENT:  EXPLAIN ANALYZE SELECT * FROM fn_file WHERE x > 10.0;
+2022-01-22 12:02:22.519 MSK [1824] ERROR:  cannot delete from foreign table "fn_file"
+2022-01-22 12:02:22.519 MSK [1824] STATEMENT:  DELETE FROM fn_file;
+2022-01-22 12:03:21.992 MSK [1824] ERROR:  cannot drop foreign table fn_file because other objects depend on it
+2022-01-22 12:03:21.992 MSK [1824] DETAIL:  materialized view fn_view depends on foreign table fn_file
+2022-01-22 12:03:21.992 MSK [1824] HINT:  Use DROP ... CASCADE to drop the dependent objects too.
+2022-01-22 12:03:21.992 MSK [1824] STATEMENT:  DROP FOREIGN TABLE fn_file;
+2022-01-22 12:06:49.537 MSK [1824] ERROR:  could not open file "/Users/user/sine.csv" for reading: No such file or directory
+2022-01-22 12:06:49.537 MSK [1824] HINT:  COPY FROM instructs the PostgreSQL server process to read a file. You may want a client-side facility such as psql's \copy.
+2022-01-22 12:06:49.537 MSK [1824] STATEMENT:  EXPLAIN ANALYZE SELECT * FROM fn_file WHERE x > 10.0;
+2022-01-22 12:08:14.945 MSK [1978] ERROR:  could not open file "/Users/user/sine.csv" for reading: No such file or directory
+2022-01-22 12:08:14.945 MSK [1978] HINT:  COPY FROM instructs the PostgreSQL server process to read a file. You may want a client-side facility such as psql's \copy.
+2022-01-22 12:08:14.945 MSK [1978] STATEMENT:  EXPLAIN ANALYZE SELECT * FROM fn_file WHERE x > 10.0;
+2022-01-22 12:10:41.819 MSK [1978] ERROR:  materialized view "fn_view" does not exist
+2022-01-22 12:10:41.819 MSK [1978] STATEMENT:  DROP MATERIALIZED VIEW fn_view;
+2022-01-22 12:13:50.677 MSK [2013] ERROR:  relation "fn_view" does not exist
+2022-01-22 12:13:50.677 MSK [2013] STATEMENT:  REFRESH MATERIALIZED VIEW fn_view;
+2022-01-25 09:17:53.606 MSK [1774] LOG:  received smart shutdown request
+2022-01-25 09:17:53.612 MSK [2029] FATAL:  terminating connection due to administrator command
+2022-01-25 09:17:53.612 MSK [2029] LOG:  could not send data to client: Broken pipe
+2022-01-25 09:17:53.617 MSK [1774] LOG:  background worker "logical replication launcher" (PID 1781) exited with exit code 1
+2022-01-25 09:17:53.617 MSK [1776] LOG:  shutting down
+2022-02-15 11:29:27.088 MSK [1794] LOG:  starting PostgreSQL 14.1 on x86_64-pc-linux-musl, compiled by gcc (Alpine 10.3.1_git20211027) 10.3.1 20211027, 64-bit
+2022-02-15 11:29:27.089 MSK [1794] LOG:  listening on IPv4 address "0.0.0.0", port 5432
+2022-02-15 11:29:27.103 MSK [1794] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2022-02-15 11:29:27.120 MSK [1795] LOG:  database system shutdown was interrupted; last known up at 2022-01-25 09:17:53 MSK
+2022-02-15 11:29:27.280 MSK [1795] LOG:  database system was not properly shut down; automatic recovery in progress
+2022-02-15 11:29:27.290 MSK [1795] LOG:  redo starts at 0/2BEBF90
+2022-02-15 11:29:27.290 MSK [1795] LOG:  invalid record length at 0/2BEC090: wanted 24, got 0
+2022-02-15 11:29:27.290 MSK [1795] LOG:  redo done at 0/2BEC058 system usage: CPU: user: 0.00 s, system: 0.00 s, elapsed: 0.00 s
+2022-02-15 11:29:27.316 MSK [1794] LOG:  database system is ready to accept connections
+2022-02-15 11:33:29.571 MSK [1818] FATAL:  database "lab25" does not exist
+2022-02-15 11:33:51.079 MSK [1816] ERROR:  syntax error at or near "CREATE" at character 23
+2022-02-15 11:33:51.079 MSK [1816] STATEMENT:  CREATE DATABASE lab25
+	CREATE DATABASE lab25;
+2022-02-15 11:34:31.344 MSK [1794] LOG:  received fast shutdown request
+2022-02-15 11:34:31.354 MSK [1794] LOG:  aborting any active transactions
+2022-02-15 11:34:31.355 MSK [1794] LOG:  background worker "logical replication launcher" (PID 1801) exited with exit code 1
+2022-02-15 11:34:31.355 MSK [1816] FATAL:  terminating connection due to administrator command
+2022-02-15 11:34:31.356 MSK [1796] LOG:  shutting down
+2022-02-15 11:34:31.435 MSK [1794] LOG:  database system is shut down
+2022-02-15 11:34:36.828 MSK [1835] LOG:  starting PostgreSQL 14.1 on x86_64-pc-linux-musl, compiled by gcc (Alpine 10.3.1_git20211027) 10.3.1 20211027, 64-bit
+2022-02-15 11:34:36.828 MSK [1835] LOG:  listening on IPv4 address "0.0.0.0", port 5432
+2022-02-15 11:34:36.839 MSK [1835] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2022-02-15 11:34:36.848 MSK [1836] LOG:  database system was shut down at 2022-02-15 11:34:31 MSK
+2022-02-15 11:34:36.852 MSK [1835] LOG:  database system is ready to accept connections
+2022-02-15 11:37:17.911 MSK [1847] ERROR:  relation "marking_sample.mark" does not exist
+2022-02-15 11:37:17.911 MSK [1847] STATEMENT:  CREATE UNIQUE INDEX mark_ix_1 ON marking_sample.mark(exam, stud);
+2022-02-15 11:57:10.833 MSK [1847] ERROR:  syntax error at or near "INTEGER" at character 37
+2022-02-15 11:57:10.833 MSK [1847] STATEMENT:  CREATE TABLE student(PRIMARY KEY(id INTEGER), first VARCHAR(50), last VARCHAR(50), sex CHAR(1)) 
+	CREATE TABLE student(PRIMARY KEY(id INTEGER), first VARCHAR(50), last VARCHAR(50), sex CHAR(1));
+2022-02-15 12:10:11.760 MSK [2022] ERROR:  syntax error at or near "FOREIGN" at character 59
+2022-02-15 12:10:11.760 MSK [2022] STATEMENT:  CREATE TABLE mark 
+	(
+	id integer PRIMARY KEY,
+	exam integer FOREIGN KEY,
+	stud integer FOREIGN KEY,
+	res integer
+	);
+2022-02-15 12:10:11.760 MSK [2022] ERROR:  syntax error at or near "FOREIGN" at character 61
+2022-02-15 12:10:11.760 MSK [2022] STATEMENT:  CREATE TABLE exam 
+	(
+	id integer PRIMARY KEY,
+	discip integer FOREIGN KEY,
+	ts timestamp
+	);
+2022-02-15 12:11:39.169 MSK [2031] ERROR:  relation "student" already exists
+2022-02-15 12:11:39.169 MSK [2031] STATEMENT:  CREATE TABLE student
+	(
+	id integer PRIMARY KEY, 
+	first varchar(50),
+	last varchar(50),
+	sex char(1)
+	);
+2022-02-15 12:11:39.170 MSK [2031] ERROR:  relation "discipline" already exists
+2022-02-15 12:11:39.170 MSK [2031] STATEMENT:  CREATE TABLE discipline
+	(
+	id integer PRIMARY KEY,
+	descr varchar(50)
+	);
+2022-02-15 12:13:43.452 MSK [2040] ERROR:  relation "discipline" already exists
+2022-02-15 12:13:43.452 MSK [2040] STATEMENT:  CREATE TABLE discipline
+	(
+	id integer PRIMARY KEY,
+	descr varchar(50)
+	);
+2022-02-15 12:14:30.692 MSK [1847] ERROR:  syntax error at or near "nano" at character 1
+2022-02-15 12:14:30.692 MSK [1847] STATEMENT:  nano table.sql 
+	CREATE UNIQUE INDEX mark_ix_1 ON marking_sample.mark(exam, stud);
+2022-02-15 12:14:43.115 MSK [1847] ERROR:  relation "marking_sample.mark" does not exist
+2022-02-15 12:14:43.115 MSK [1847] STATEMENT:  CREATE UNIQUE INDEX mark_ix_1 ON marking_sample.mark(exam, stud);
+2022-02-15 12:21:47.353 MSK [2091] ERROR:  relation "marking_sample.mark" does not exist
+2022-02-15 12:21:47.353 MSK [2091] STATEMENT:  CREATE UNIQUE INDEX mark_ix_1 ON marking_sample.mark(exam, stud);
+2022-02-15 12:21:47.358 MSK [2091] ERROR:  relation "marking_sample.mark" does not exist
+2022-02-15 12:21:47.358 MSK [2091] STATEMENT:  ALTER TABLE marking_sample.mark
+	ADD CONSTRAINT student_mark
+	FOREIGN KEY (stud) REFERENCES marking_sample.student(id);
+2022-02-15 12:21:47.359 MSK [2091] ERROR:  syntax error at or near "ALTER" at character 112
+2022-02-15 12:21:47.359 MSK [2091] STATEMENT:  ALTER TABLE marking_sample.mark
+	ADD CONSTRAINT exam_mark FOREIGN KEY (exam) REFERENCES marking_sample.exam(id)
+	ALTER TABLE marking_sample.exam
+	ADD CONSTRAINT discipline_exam
+	FOREIGN KEY (discip) REFERENCES marking_sample.discipline(id);
+2022-02-15 12:24:07.101 MSK [2101] ERROR:  relation "mark" already exists
+2022-02-15 12:24:07.101 MSK [2101] STATEMENT:  CREATE TABLE mark
+	(
+	id integer PRIMARY KEY,
+	exam integer,
+	stud integer,
+	res integer
+	);
+2022-02-15 12:24:07.107 MSK [2101] ERROR:  relation "marking_sample.mark" does not exist
+2022-02-15 12:24:07.107 MSK [2101] STATEMENT:  CREATE UNIQUE INDEX mark_ix_1 ON marking_sample.mark(exam, stud);
+2022-02-15 12:24:07.107 MSK [2101] ERROR:  relation "marking_sample.mark" does not exist
+2022-02-15 12:24:07.107 MSK [2101] STATEMENT:  ALTER TABLE marking_sample.mark
+	ADD CONSTRAINT student_mark
+	FOREIGN KEY (stud) REFERENCES marking_sample.student(id);
+2022-02-15 12:24:07.108 MSK [2101] ERROR:  syntax error at or near "ALTER" at character 112
+2022-02-15 12:24:07.108 MSK [2101] STATEMENT:  ALTER TABLE marking_sample.mark
+	ADD CONSTRAINT exam_mark FOREIGN KEY (exam) REFERENCES marking_sample.exam(id)
+	ALTER TABLE marking_sample.exam
+	ADD CONSTRAINT discipline_exam
+	FOREIGN KEY (discip) REFERENCES marking_sample.discipline(id);
+2022-02-15 12:25:07.822 MSK [2116] ERROR:  syntax error at or near ";" at character 94
+2022-02-15 12:25:07.822 MSK [2116] STATEMENT:  CREATE FOREIGN TABLE mark
+	(
+	id integer PRIMARY KEY,
+	exam integer,
+	stud integer,
+	res integer
+	);
+2022-02-15 12:25:07.824 MSK [2116] ERROR:  relation "marking_sample.mark" does not exist
+2022-02-15 12:25:07.824 MSK [2116] STATEMENT:  CREATE UNIQUE INDEX mark_ix_1 ON marking_sample.mark(exam, stud);
+2022-02-15 12:25:07.827 MSK [2116] ERROR:  relation "marking_sample.mark" does not exist
+2022-02-15 12:25:07.827 MSK [2116] STATEMENT:  ALTER TABLE marking_sample.mark
+	ADD CONSTRAINT student_mark
+	FOREIGN KEY (stud) REFERENCES marking_sample.student(id);
+2022-02-15 12:25:07.828 MSK [2116] ERROR:  syntax error at or near "ALTER" at character 112
+2022-02-15 12:25:07.828 MSK [2116] STATEMENT:  ALTER TABLE marking_sample.mark
+	ADD CONSTRAINT exam_mark FOREIGN KEY (exam) REFERENCES marking_sample.exam(id)
+	ALTER TABLE marking_sample.exam
+	ADD CONSTRAINT discipline_exam
+	FOREIGN KEY (discip) REFERENCES marking_sample.discipline(id);
+2022-02-15 12:25:34.565 MSK [2120] ERROR:  syntax error at or near "CREATE" at character 95
+2022-02-15 12:25:34.565 MSK [2120] STATEMENT:  CREATE FOREIGN TABLE mark
+	(
+	id integer PRIMARY KEY,
+	exam integer,
+	stud integer,
+	res integer
+	)
+	CREATE UNIQUE INDEX mark_ix_1 ON marking_sample.mark(exam, stud);
+2022-02-15 12:25:34.570 MSK [2120] ERROR:  relation "marking_sample.mark" does not exist
+2022-02-15 12:25:34.570 MSK [2120] STATEMENT:  ALTER TABLE marking_sample.mark
+	ADD CONSTRAINT student_mark
+	FOREIGN KEY (stud) REFERENCES marking_sample.student(id);
+2022-02-15 12:25:34.573 MSK [2120] ERROR:  syntax error at or near "ALTER" at character 112
+2022-02-15 12:25:34.573 MSK [2120] STATEMENT:  ALTER TABLE marking_sample.mark
+	ADD CONSTRAINT exam_mark FOREIGN KEY (exam) REFERENCES marking_sample.exam(id)
+	ALTER TABLE marking_sample.exam
+	ADD CONSTRAINT discipline_exam
+	FOREIGN KEY (discip) REFERENCES marking_sample.discipline(id);
+2022-02-15 12:26:00.868 MSK [2125] ERROR:  relation "mark" already exists
+2022-02-15 12:26:00.868 MSK [2125] STATEMENT:  CREATE TABLE mark
+	(
+	id integer PRIMARY KEY,
+	exam integer,
+	stud integer,
+	res integer
+	);
+2022-02-15 12:26:00.872 MSK [2125] ERROR:  relation "marking_sample.mark" does not exist
+2022-02-15 12:26:00.872 MSK [2125] STATEMENT:  CREATE UNIQUE INDEX mark_ix_1 ON marking_sample.mark(exam, stud);
+2022-02-15 12:26:00.873 MSK [2125] ERROR:  relation "marking_sample.mark" does not exist
+2022-02-15 12:26:00.873 MSK [2125] STATEMENT:  ALTER TABLE marking_sample.mark
+	ADD CONSTRAINT student_mark
+	FOREIGN KEY (stud) REFERENCES marking_sample.student(id);
+2022-02-15 12:26:00.873 MSK [2125] ERROR:  syntax error at or near "ALTER" at character 112
+2022-02-15 12:26:00.873 MSK [2125] STATEMENT:  ALTER TABLE marking_sample.mark
+	ADD CONSTRAINT exam_mark FOREIGN KEY (exam) REFERENCES marking_sample.exam(id)
+	ALTER TABLE marking_sample.exam
+	ADD CONSTRAINT discipline_exam
+	FOREIGN KEY (discip) REFERENCES marking_sample.discipline(id);
+2022-02-15 12:26:34.186 MSK [2132] ERROR:  relation "marking_sample.mark" does not exist
+2022-02-15 12:26:34.186 MSK [2132] STATEMENT:  CREATE UNIQUE INDEX mark_ix_1 ON marking_sample.mark(exam, stud);
+2022-02-15 12:26:34.189 MSK [2132] ERROR:  relation "marking_sample.mark" does not exist
+2022-02-15 12:26:34.189 MSK [2132] STATEMENT:  ALTER TABLE marking_sample.mark
+	ADD CONSTRAINT student_mark
+	FOREIGN KEY (stud) REFERENCES marking_sample.student(id);
+2022-02-15 12:26:34.190 MSK [2132] ERROR:  syntax error at or near "ALTER" at character 112
+2022-02-15 12:26:34.190 MSK [2132] STATEMENT:  ALTER TABLE marking_sample.mark
+	ADD CONSTRAINT exam_mark FOREIGN KEY (exam) REFERENCES marking_sample.exam(id)
+	ALTER TABLE marking_sample.exam
+	ADD CONSTRAINT discipline_exam
+	FOREIGN KEY (discip) REFERENCES marking_sample.discipline(id);
+2022-02-15 12:29:20.247 MSK [1835] LOG:  received fast shutdown request
+2022-02-15 12:29:20.251 MSK [1835] LOG:  aborting any active transactions
+2022-02-15 12:29:20.252 MSK [1835] LOG:  background worker "logical replication launcher" (PID 1842) exited with exit code 1
+2022-02-15 12:29:20.252 MSK [1837] LOG:  shutting down
+2022-02-15 12:29:20.287 MSK [1835] LOG:  database system is shut down
+2022-02-15 12:29:22.349 MSK [2149] LOG:  starting PostgreSQL 14.1 on x86_64-pc-linux-musl, compiled by gcc (Alpine 10.3.1_git20211027) 10.3.1 20211027, 64-bit
+2022-02-15 12:29:22.349 MSK [2149] LOG:  listening on IPv4 address "0.0.0.0", port 5432
+2022-02-15 12:29:22.354 MSK [2149] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2022-02-15 12:29:22.361 MSK [2150] LOG:  database system was shut down at 2022-02-15 12:29:20 MSK
+2022-02-15 12:29:22.365 MSK [2149] LOG:  database system is ready to accept connections
+2022-02-15 12:29:40.976 MSK [2169] ERROR:  syntax error at or near "ALTER" at character 112
+2022-02-15 12:29:40.976 MSK [2169] STATEMENT:  ALTER TABLE marking_sample.mark
+	ADD CONSTRAINT exam_mark FOREIGN KEY (exam) REFERENCES marking_sample.exam(id)
+	ALTER TABLE marking_sample.exam
+	ADD CONSTRAINT discipline_exam
+	FOREIGN KEY (discip) REFERENCES marking_sample.discipline(id);
+2022-02-15 12:31:09.977 MSK [2169] ERROR:  relation "mark_ix_1" already exists
+2022-02-15 12:31:09.977 MSK [2169] STATEMENT:  CREATE UNIQUE INDEX mark_ix_1 ON marking_sample.mark(exam, stud);
+2022-02-15 12:31:09.981 MSK [2169] ERROR:  constraint "student_mark" for relation "mark" already exists
+2022-02-15 12:31:09.981 MSK [2169] STATEMENT:  ALTER TABLE marking_sample.mark
+	ADD CONSTRAINT student_mark
+	FOREIGN KEY (stud) REFERENCES marking_sample.student(id);
+2022-02-15 12:31:09.982 MSK [2169] ERROR:  syntax error at or near "ALTER" at character 112
+2022-02-15 12:31:09.982 MSK [2169] STATEMENT:  ALTER TABLE marking_sample.mark
+	ADD CONSTRAINT exam_mark FOREIGN KEY (exam) REFERENCES marking_sample.exam(id)
+	ALTER TABLE marking_sample.exam
+	ADD CONSTRAINT discipline_exam FOREIGN KEY (discip) REFERENCES marking_sample.discipline(id);
+2022-02-15 12:31:16.017 MSK [2149] LOG:  received fast shutdown request
+2022-02-15 12:31:16.020 MSK [2149] LOG:  aborting any active transactions
+2022-02-15 12:31:16.021 MSK [2149] LOG:  background worker "logical replication launcher" (PID 2156) exited with exit code 1
+2022-02-15 12:31:16.021 MSK [2151] LOG:  shutting down
+2022-02-15 12:31:16.061 MSK [2149] LOG:  database system is shut down
+2022-02-15 12:31:18.577 MSK [2182] LOG:  starting PostgreSQL 14.1 on x86_64-pc-linux-musl, compiled by gcc (Alpine 10.3.1_git20211027) 10.3.1 20211027, 64-bit
+2022-02-15 12:31:18.577 MSK [2182] LOG:  listening on IPv4 address "0.0.0.0", port 5432
+2022-02-15 12:31:18.591 MSK [2182] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2022-02-15 12:31:18.598 MSK [2183] LOG:  database system was shut down at 2022-02-15 12:31:16 MSK
+2022-02-15 12:31:18.601 MSK [2182] LOG:  database system is ready to accept connections
+2022-02-15 12:31:35.201 MSK [2193] ERROR:  relation "mark_ix_1" already exists
+2022-02-15 12:31:35.201 MSK [2193] STATEMENT:  CREATE UNIQUE INDEX mark_ix_1 ON marking_sample.mark(exam, stud);
+2022-02-15 12:31:35.203 MSK [2193] ERROR:  constraint "student_mark" for relation "mark" already exists
+2022-02-15 12:31:35.203 MSK [2193] STATEMENT:  ALTER TABLE marking_sample.mark
+	ADD CONSTRAINT student_mark
+	FOREIGN KEY (stud) REFERENCES marking_sample.student(id);
+2022-02-15 12:31:35.203 MSK [2193] ERROR:  syntax error at or near "ALTER" at character 112
+2022-02-15 12:31:35.203 MSK [2193] STATEMENT:  ALTER TABLE marking_sample.mark
+	ADD CONSTRAINT exam_mark FOREIGN KEY (exam) REFERENCES marking_sample.exam(id)
+	ALTER TABLE marking_sample.exam
+	ADD CONSTRAINT discipline_exam FOREIGN KEY (discip) REFERENCES marking_sample.discipline(id);
+2022-02-15 12:34:48.890 MSK [2182] LOG:  received fast shutdown request
+2022-02-15 12:34:48.893 MSK [2182] LOG:  aborting any active transactions
+2022-02-15 12:34:48.894 MSK [2193] FATAL:  terminating connection due to administrator command
+2022-02-15 12:34:48.896 MSK [2182] LOG:  background worker "logical replication launcher" (PID 2189) exited with exit code 1
+2022-02-15 12:34:48.896 MSK [2184] LOG:  shutting down
+2022-02-15 12:34:48.932 MSK [2182] LOG:  database system is shut down
+2022-02-15 12:34:57.109 MSK [2219] LOG:  starting PostgreSQL 14.1 on x86_64-pc-linux-musl, compiled by gcc (Alpine 10.3.1_git20211027) 10.3.1 20211027, 64-bit
+2022-02-15 12:34:57.109 MSK [2219] LOG:  listening on IPv4 address "0.0.0.0", port 5432
+2022-02-15 12:34:57.116 MSK [2219] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2022-02-15 12:34:57.123 MSK [2220] LOG:  database system was shut down at 2022-02-15 12:34:48 MSK
+2022-02-15 12:34:57.127 MSK [2219] LOG:  database system is ready to accept connections
+2022-02-15 12:35:14.401 MSK [2230] ERROR:  relation "mark_ix_1" already exists
+2022-02-15 12:35:14.401 MSK [2230] STATEMENT:  CREATE UNIQUE INDEX mark_ix_1 ON marking_sample.mark(exam, stud);
+2022-02-15 12:35:14.403 MSK [2230] ERROR:  constraint "student_mark" for relation "mark" already exists
+2022-02-15 12:35:14.403 MSK [2230] STATEMENT:  ALTER TABLE marking_sample.mark
+	ADD CONSTRAINT student_mark
+	FOREIGN KEY (stud) REFERENCES marking_sample.student(id);
+2022-02-15 12:35:14.403 MSK [2230] ERROR:  syntax error at or near "ALTER" at character 112
+2022-02-15 12:35:14.403 MSK [2230] STATEMENT:  ALTER TABLE marking_sample.mark
+	ADD CONSTRAINT exam_mark FOREIGN KEY (exam) REFERENCES marking_sample.exam(id)
+	ALTER TABLE marking_sample.exam
+	ADD CONSTRAINT discipline_exam FOREIGN KEY (discip) REFERENCES marking_sample.discipline(id);
+2022-02-15 12:35:50.004 MSK [2230] ERROR:  schema "marking_sample" already exists
+2022-02-15 12:35:50.004 MSK [2230] STATEMENT:  CREATE SCHEMA marking_sample;
+2022-02-15 12:36:45.798 MSK [2230] ERROR:  cannot drop table student because other objects depend on it
+2022-02-15 12:36:45.798 MSK [2230] DETAIL:  constraint student_mark on table mark depends on table student
+2022-02-15 12:36:45.798 MSK [2230] HINT:  Use DROP ... CASCADE to drop the dependent objects too.
+2022-02-15 12:36:45.798 MSK [2230] STATEMENT:  DROP TABLE IF EXISTS student;
+2022-02-15 12:36:45.803 MSK [2230] ERROR:  relation "student" already exists
+2022-02-15 12:36:45.803 MSK [2230] STATEMENT:  CREATE TABLE student
+	(
+	id integer PRIMARY KEY, 
+	first varchar(50),
+	last varchar(50),
+	sex char(1)
+	);
+2022-02-15 12:37:45.048 MSK [2230] ERROR:  syntax error at or near "ALTER" at character 112
+2022-02-15 12:37:45.048 MSK [2230] STATEMENT:  ALTER TABLE marking_sample.mark
+	ADD CONSTRAINT exam_mark FOREIGN KEY (exam) REFERENCES marking_sample.exam(id)
+	ALTER TABLE marking_sample.exam
+	ADD CONSTRAINT discipline_exam FOREIGN KEY (discip) REFERENCES marking_sample.discipline(id);
+2022-02-15 12:50:13.619 MSK [2219] LOG:  received smart shutdown request
+2022-02-15 12:50:13.622 MSK [2230] FATAL:  terminating connection due to administrator command
+2022-02-15 12:50:13.622 MSK [2230] LOG:  could not send data to client: Broken pipe
+2022-02-15 12:50:13.631 MSK [2219] LOG:  background worker "logical replication launcher" (PID 2226) exited with exit code 1
+2022-02-15 12:50:13.631 MSK [2221] LOG:  shutting down
+2022-02-18 14:11:51.369 MSK [1774] LOG:  starting PostgreSQL 14.1 on x86_64-pc-linux-musl, compiled by gcc (Alpine 10.3.1_git20211027) 10.3.1 20211027, 64-bit
+2022-02-18 14:11:51.370 MSK [1774] LOG:  listening on IPv4 address "0.0.0.0", port 5432
+2022-02-18 14:11:51.376 MSK [1774] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2022-02-18 14:11:51.389 MSK [1775] LOG:  database system shutdown was interrupted; last known up at 2022-02-15 12:50:13 MSK
+2022-02-18 14:11:51.568 MSK [1775] LOG:  database system was not properly shut down; automatic recovery in progress
+2022-02-18 14:11:51.576 MSK [1775] LOG:  redo starts at 0/2DACB78
+2022-02-18 14:11:51.576 MSK [1775] LOG:  invalid record length at 0/2DACC60: wanted 24, got 0
+2022-02-18 14:11:51.576 MSK [1775] LOG:  redo done at 0/2DACC28 system usage: CPU: user: 0.00 s, system: 0.00 s, elapsed: 0.00 s
+2022-02-18 14:11:51.595 MSK [1774] LOG:  database system is ready to accept connections
+2022-02-18 14:12:37.118 MSK [1787] ERROR:  relation "mark_ix_1" already exists
+2022-02-18 14:12:37.118 MSK [1787] STATEMENT:  CREATE UNIQUE INDEX mark_ix_1 ON marking_sample.mark(exam, stud);
+2022-02-18 14:12:37.121 MSK [1787] ERROR:  constraint "student_mark" for relation "mark" already exists
+2022-02-18 14:12:37.121 MSK [1787] STATEMENT:  ALTER TABLE marking_sample.mark
+	ADD CONSTRAINT student_mark
+	FOREIGN KEY (stud) REFERENCES marking_sample.student(id);
+2022-02-18 14:12:37.123 MSK [1787] ERROR:  syntax error at or near "ALTER" at character 112
+2022-02-18 14:12:37.123 MSK [1787] STATEMENT:  ALTER TABLE marking_sample.mark
+	ADD CONSTRAINT exam_mark FOREIGN KEY (exam) REFERENCES marking_sample.exam(id)
+	ALTER TABLE marking_sample.exam
+	ADD CONSTRAINT discipline_exam FOREIGN KEY (discip) REFERENCES marking_sample.discipline(id);
+2022-02-18 14:14:42.052 MSK [1774] LOG:  received fast shutdown request
+2022-02-18 14:14:42.055 MSK [1774] LOG:  aborting any active transactions
+2022-02-18 14:14:42.056 MSK [1774] LOG:  background worker "logical replication launcher" (PID 1781) exited with exit code 1
+2022-02-18 14:14:42.056 MSK [1776] LOG:  shutting down
+2022-02-18 14:14:42.084 MSK [1774] LOG:  database system is shut down
+2022-02-18 14:14:43.916 MSK [1798] LOG:  starting PostgreSQL 14.1 on x86_64-pc-linux-musl, compiled by gcc (Alpine 10.3.1_git20211027) 10.3.1 20211027, 64-bit
+2022-02-18 14:14:43.916 MSK [1798] LOG:  listening on IPv4 address "0.0.0.0", port 5432
+2022-02-18 14:14:43.926 MSK [1798] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2022-02-18 14:14:43.932 MSK [1799] LOG:  database system was shut down at 2022-02-18 14:14:42 MSK
+2022-02-18 14:14:43.936 MSK [1798] LOG:  database system is ready to accept connections
+2022-02-18 14:14:56.330 MSK [1809] ERROR:  relation "mark_ix_1" already exists
+2022-02-18 14:14:56.330 MSK [1809] STATEMENT:  CREATE UNIQUE INDEX mark_ix_1 ON marking_sample.mark(exam, stud);
+2022-02-18 14:14:56.331 MSK [1809] ERROR:  constraint "student_mark" for relation "mark" already exists
+2022-02-18 14:14:56.331 MSK [1809] STATEMENT:  ALTER TABLE marking_sample.mark
+	ADD CONSTRAINT student_mark
+	FOREIGN KEY (stud) REFERENCES marking_sample.student(id);
+2022-02-18 14:22:57.635 MSK [1809] ERROR:  relation "descip_id" does not exist at character 51
+2022-02-18 14:22:57.635 MSK [1809] STATEMENT:  INSERT INTO discipline (id,descr) VALUES (nextval('descip_id'), 'Math');
+2022-02-18 14:22:57.638 MSK [1809] ERROR:  relation "descip_id" does not exist at character 51
+2022-02-18 14:22:57.638 MSK [1809] STATEMENT:  INSERT INTO discipline (id,descr) VALUES (nextval('descip_id'), 'Physics');
+2022-02-18 14:22:57.639 MSK [1809] ERROR:  relation "descip_id" does not exist at character 51
+2022-02-18 14:22:57.639 MSK [1809] STATEMENT:  INSERT INTO discipline (id,descr) VALUES (nextval('descip_id'), 'Computer Science');
+2022-02-18 14:22:57.639 MSK [1809] ERROR:  relation "descip_id" does not exist at character 51
+2022-02-18 14:22:57.639 MSK [1809] STATEMENT:  INSERT INTO discipline (id,descr) VALUES (nextval('descip_id'), 'History');
+2022-02-18 14:22:57.639 MSK [1809] ERROR:  relation "descip_id" does not exist at character 51
+2022-02-18 14:22:57.639 MSK [1809] STATEMENT:  INSERT INTO discipline (id,descr) VALUES (nextval('descip_id'), 'Foreign Language');
+2022-02-18 14:23:58.788 MSK [1809] ERROR:  relation "discip_id" already exists
+2022-02-18 14:23:58.788 MSK [1809] STATEMENT:  CREATE SEQUENCE discip_id;
+2022-02-18 14:42:25.226 MSK [1809] ERROR:  syntax error at or near "random" at character 8
+2022-02-18 14:42:25.226 MSK [1809] STATEMENT:  import random  
+	def read_list(file):
+	   f = open(file,"r")
+	   lst = f.read().splitlines()
+	   f.close()
+	   return lst
+	def name_case(list):
+	   for i in range(0,len(list)):
+	      list[i] = list[i].capitalize()
+	first_female = read_list("name-first-female.txt");
+2022-02-18 14:42:25.227 MSK [1809] ERROR:  syntax error at or near "name_case" at character 1
+2022-02-18 14:42:25.227 MSK [1809] STATEMENT:  name_case(first_female)
+	first_male = read_list("name-first-male.txt");
+2022-02-18 14:42:25.227 MSK [1809] ERROR:  syntax error at or near "name_case" at character 1
+2022-02-18 14:42:25.227 MSK [1809] STATEMENT:  name_case(first_male)
+	last_all = read_list("name-last-all.txt");
+2022-02-18 14:42:25.228 MSK [1809] ERROR:  syntax error at or near "name_case" at character 1
+2022-02-18 14:42:25.228 MSK [1809] STATEMENT:  name_case(last_all)
+	names = 100
+	f = open("marking-sample-names.sql", "w")
+	f.write("INSERT INTO marking_sample.student (id,first,last,sex) VALUES \n")
+	for i in range (0,names):
+	   z = random.randint(0,len(last_all)-1)
+	   last = last_all[z]
+	   w = random.randint(0,1)
+	   if w == 0;
+2022-02-18 14:42:25.228 MSK [1809] ERROR:  syntax error at or near "x" at character 1
+2022-02-18 14:42:25.228 MSK [1809] STATEMENT:  x = random.randint(0, len(first_female)-1)
+	      first = first_female[x]
+	      sex = "F"
+	   else:
+	      y = random .randint(0, len(first_male)-1)
+	      first = first_male[y]
+	      sex = "M"
+	   f.write(f"\t({i+1}, '{first}', '{last}', '{sex}')")
+	   if i < names -1:
+	      f.write(",\n")
+	f.write("\n")
+	f.close()
+2022-02-18 15:51:55.601 MSK [1798] LOG:  received smart shutdown request
+2022-02-18 15:51:55.605 MSK [1809] FATAL:  terminating connection due to administrator command
+2022-02-18 15:51:55.605 MSK [1809] LOG:  could not send data to client: Broken pipe
+2022-02-18 15:51:55.607 MSK [1798] LOG:  background worker "logical replication launcher" (PID 1805) exited with exit code 1
+2022-02-18 15:51:55.607 MSK [1800] LOG:  shutting down
+2022-02-24 13:25:19.036 MSK [1773] LOG:  starting PostgreSQL 14.1 on x86_64-pc-linux-musl, compiled by gcc (Alpine 10.3.1_git20211027) 10.3.1 20211027, 64-bit
+2022-02-24 13:25:19.036 MSK [1773] LOG:  listening on IPv4 address "0.0.0.0", port 5432
+2022-02-24 13:25:19.042 MSK [1773] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2022-02-24 13:25:19.054 MSK [1774] LOG:  database system shutdown was interrupted; last known up at 2022-02-18 15:51:55 MSK
+2022-02-24 13:25:19.208 MSK [1774] LOG:  database system was not properly shut down; automatic recovery in progress
+2022-02-24 13:25:19.214 MSK [1774] LOG:  redo starts at 0/2E35DB8
+2022-02-24 13:25:19.214 MSK [1774] LOG:  invalid record length at 0/2E35EA0: wanted 24, got 0
+2022-02-24 13:25:19.215 MSK [1774] LOG:  redo done at 0/2E35E68 system usage: CPU: user: 0.00 s, system: 0.00 s, elapsed: 0.00 s
+2022-02-24 13:25:19.233 MSK [1773] LOG:  database system is ready to accept connections
+2022-02-24 13:49:23.055 MSK [1834] ERROR:  syntax error at or near "random" at character 8
+2022-02-24 13:49:23.055 MSK [1834] STATEMENT:  import random  
+	def read_list(file):
+	   f = open(file,"r")
+	   lst = f.read().splitlines()
+	   f.close()
+	   return lst
+	def name_case(list):
+	   for i in range(0,len(list)):
+	      list[i] = list[i].capitalize()
+	first_female = read_list("name-first-female.txt");
+2022-02-24 13:49:23.057 MSK [1834] ERROR:  syntax error at or near "name_case" at character 1
+2022-02-24 13:49:23.057 MSK [1834] STATEMENT:  name_case(first_female)
+	first_male = read_list("name-first-male.txt");
+2022-02-24 13:49:23.057 MSK [1834] ERROR:  syntax error at or near "name_case" at character 1
+2022-02-24 13:49:23.057 MSK [1834] STATEMENT:  name_case(first_male)
+	last_all = read_list("name-last-all.txt");
+2022-02-24 13:49:23.058 MSK [1834] ERROR:  syntax error at or near "name_case" at character 1
+2022-02-24 13:49:23.058 MSK [1834] STATEMENT:  name_case(last_all)
+	names = 100
+	f = open("marking-sample-names.sql", "w")
+	f.write("INSERT INTO marking_sample.student (id,first,last,sex) VALUES \n")
+	for i in range (0,names):
+	   z = random.randint(0,len(last_all)-1)
+	   last = last_all[z]
+	   w = random.randint(0,1)
+	   if w == 0:
+	      x = random.randint(0, len(first_female)-1)
+	      first = first_female[x]
+	      sex = "F"
+	   else:
+	      y = random .randint(0, len(first_male)-1)
+	      first = first_male[y]
+	      sex = "M"
+	   f.write(f"\t({i+1}, '{first}', '{last}', '{sex}')")
+	   if i < names -1:
+	      f.write(",\n")
+	f.write("\n")
+	f.close()
+2022-02-24 14:02:45.144 MSK [1834] ERROR:  syntax error at or near "ON" at character 108
+2022-02-24 14:02:45.144 MSK [1834] STATEMENT:  CREATE OR REPLACE VIEW exam_marks AS
+	    SELECT                                      FROM
+	    JOIN         ON
+	    JOIN      ON
+	    JOIN            ON
+	    WHERE                                          = 'Nathanial Lyman'
+	    ORDER BY        ;
+2022-02-24 14:02:45.148 MSK [1834] ERROR:  relation "exam_marks" does not exist at character 15
+2022-02-24 14:02:45.148 MSK [1834] STATEMENT:  SELECT * FROM exam_marks;
+2022-02-24 14:03:40.126 MSK [1834] ERROR:  syntax error at or near "ON" at character 109
+2022-02-24 14:03:40.126 MSK [1834] STATEMENT:  CREATE OR REPLACE VIEW exam_marks AS
+	    SELECT                                      FROM
+	    JOIN          ON
+	    JOIN      ON
+	    JOIN            ON
+	    WHERE                                          = 'Nathanial Lyman'
+	    ORDER BY        ;
+2022-02-24 14:03:40.126 MSK [1834] ERROR:  relation "exam_marks" does not exist at character 15
+2022-02-24 14:03:40.126 MSK [1834] STATEMENT:  SELECT * FROM exam_marks;
+2022-02-24 14:04:19.891 MSK [1834] ERROR:  syntax error at or near "ON" at character 108
+2022-02-24 14:04:19.891 MSK [1834] STATEMENT:  CREATE OR REPLACE VIEW exam_marks AS
+	    SELECT                                      FROM
+	    JOIN         ON
+	    JOIN      ON
+	    JOIN            ON
+	    WHERE                                          = 'Nathanial Lyman'
+	    ORDER BY        ;
+2022-02-24 14:04:19.893 MSK [1834] ERROR:  relation "exam_marks" does not exist at character 15
+2022-02-24 14:04:19.893 MSK [1834] STATEMENT:  SELECT * FROM exam_marks;
+2022-02-24 14:08:00.474 MSK [1834] ERROR:  syntax error at or near "ON" at character 108
+2022-02-24 14:08:00.474 MSK [1834] STATEMENT:  CREATE OR REPLACE VIEW exam_marks AS
+	    SELECT                                      FROM
+	    JOIN         ON
+	    JOIN      ON
+	    JOIN            ON
+	    WHERE                                          = 'Nathanial Lyman'
+	    ORDER BY        ;
+2022-03-01 11:28:16.111 MSK [1786] FATAL:  lock file "postmaster.pid" already exists
+2022-03-01 11:28:16.111 MSK [1786] HINT:  Is another postmaster (PID 1773) running in data directory "/home/user/pgdata"?
+2022-03-01 11:43:30.653 MSK [1820] FATAL:  lock file "postmaster.pid" already exists
+2022-03-01 11:43:30.653 MSK [1820] HINT:  Is another postmaster (PID 1773) running in data directory "/home/user/pgdata"?
+2022-03-01 11:46:09.819 MSK [1831] FATAL:  lock file "postmaster.pid" already exists
+2022-03-01 11:46:09.819 MSK [1831] HINT:  Is another postmaster (PID 1773) running in data directory "/home/user/pgdata"?
+2022-03-01 11:46:17.221 MSK [1837] FATAL:  lock file "postmaster.pid" already exists
+2022-03-01 11:46:17.221 MSK [1837] HINT:  Is another postmaster (PID 1773) running in data directory "/home/user/pgdata"?
+2022-03-01 11:47:52.497 MSK [1776] LOG:  starting PostgreSQL 14.1 on x86_64-pc-linux-musl, compiled by gcc (Alpine 10.3.1_git20211027) 10.3.1 20211027, 64-bit
+2022-03-01 11:47:52.498 MSK [1776] LOG:  listening on IPv4 address "0.0.0.0", port 5432
+2022-03-01 11:47:52.506 MSK [1776] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2022-03-01 11:47:52.519 MSK [1777] LOG:  database system was interrupted; last known up at 2022-02-24 14:10:23 MSK
+2022-03-01 11:47:52.696 MSK [1777] LOG:  database system was not properly shut down; automatic recovery in progress
+2022-03-01 11:47:52.703 MSK [1777] LOG:  redo starts at 0/2E880E8
+2022-03-01 11:47:52.703 MSK [1777] LOG:  invalid record length at 0/2E881D0: wanted 24, got 0
+2022-03-01 11:47:52.703 MSK [1777] LOG:  redo done at 0/2E88198 system usage: CPU: user: 0.00 s, system: 0.00 s, elapsed: 0.00 s
+2022-03-01 11:47:52.725 MSK [1776] LOG:  database system is ready to accept connections
